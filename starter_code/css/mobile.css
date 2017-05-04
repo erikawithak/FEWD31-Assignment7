@@ -50,7 +50,7 @@ header nav ul li {
   float: left;
   margin-top: 15px;
   margin: 0 0 0 10px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 
@@ -81,14 +81,12 @@ blockquote {
 }
 
 #posts {
-  width: 100%;
-  display: inline-block;
+  display: block;
   margin-right: 10px;
 }
 
 #sidebar {
-  width: 100%;
-  display: inline-block;
+  display: block;
 }
 
 .post {
@@ -128,23 +126,28 @@ blockquote {
 
 
 #sidebar h3 {
+  font-size: 30px;
   font-size: 15px;
   font-weight: 800;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 #sidebar ul {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 #sidebar ul li a {
   font-size: 20px;
+  text-align: center;
 }
 
 #sidebar p {
   font-size: 20px;
   line-height: 1.1;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 #bottom-cta {

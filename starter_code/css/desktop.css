@@ -1,4 +1,4 @@
-@media (min-width: 1280px){
+@media (min-width: 1100px){
 	/*desktop view*/
 
 .container{
@@ -74,17 +74,21 @@ blockquote {
 
 #main {
   margin-top: 80px;
+  display: block;
+  width: 100%;
 }
 
 #posts {
-  width: 700px;
   display: inline-block;
-  margin-right: 20px;
-}
+  width: 70%;
+  margin-right: 0px;
+  }
 
 #sidebar {
-  width: 240px;
   display: inline-block;
+  width: 25%;
+  float: right;
+  padding-left: 5px;
 }
 
 .post {
