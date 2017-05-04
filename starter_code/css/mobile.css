@@ -1,0 +1,195 @@
+
+
+@media (min-width: 320px){
+	/*small portrait screens*/
+
+
+.container{
+	max-width: 300px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+
+#hero {
+  height: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#hero h2{
+	font-size: 24px;
+}
+
+#benefits {
+  padding: 20px 0 5px;
+}
+
+h3 {
+  color: #033048;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+
+nav {
+  float: right;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+nav ul{
+	padding-right: 5px;
+}
+
+header nav ul li {
+  float: left;
+  margin-top: 15px;
+  margin: 0 0 0 10px;
+  font-size: 20px;
+}
+
+
+#benefits p, #benefits ul {
+  width: 100%;
+  font-size: 15px;
+}
+
+#benefits ul {
+  list-style: disc;
+  margin: 10px 0 0 15px;
+}
+
+#testimonial {
+  padding: 20px 0 20px;
+}
+
+blockquote {
+  font-size: 15px;
+  width: 100%;
+  font-weight: 300;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#main {
+  margin-top: 15px;
+}
+
+#posts {
+  width: 100%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#sidebar {
+  width: 100%;
+  display: inline-block;
+}
+
+.post {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.post h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.3;
+  margin-bottom: 15px;
+}
+
+.post img {
+  margin-bottom: 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+.post p {
+  font-size: 12px;
+  line-height: 1.333;
+}
+.post p:first-of-type:first-letter {
+  font-size: 30px;
+  line-height: 65px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-weight: 600;
+}
+.readmore {
+  text-align: right;
+  margin-top: 15px;
+}
+
+
+#sidebar h3 {
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+#sidebar ul {
+  margin-bottom: 15px;
+}
+
+#sidebar ul li a {
+  font-size: 20px;
+}
+
+#sidebar p {
+  font-size: 20px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+#bottom-cta {
+  padding: 15px;
+}
+
+footer {
+  padding: 30px 0 15px;
+}
+
+footer .logo {
+  margin-bottom: 30px;
+}
+
+footer ul li {
+  margin: 0 15px 30px;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+
+}
+
+
+@media (min-width: 480px){
+	/*large portrait screens*/
+.container{
+	max-width: 450px;
+}
+
+
+}
+
+
+
+@media (min-width: 640px){
+	/*landscape*/
+
+.container{
+	max-width: 600px;
+}
+
+
+
+}
+
