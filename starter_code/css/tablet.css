@@ -1,0 +1,39 @@
+/* Tablet (Portrait) - The viewport is at LEAST 768px wide */
+@media (min-width: 768px){
+  .container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  #hero {
+    height: 500px;
+    background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  }
+  #hero h2 {
+    padding-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+    font-weight: 600;
+  }
+
+  .button {
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 10px 10px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* Tablet (Landscape) - The viewport is at LEAST 1024px wide */
+@media (min-width: 1024px){
+  #benefits {
+    font-size: 26px;
+  }
+}
