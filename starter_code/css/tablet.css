@@ -29,11 +29,80 @@
     display: block;
     margin: auto;
   }
+  /* blog */
+    #posts {
+      width: 500px;
+      margin: auto;
+    }
+
+    .post {
+      text-align: center;
+    }
+
+    .post img {
+      max-width: 500px;
+      height: auto;
+    }
+
+    #sidebar h3 {
+      font: 24px;
+      margin-bottom: 5px;
+    }
+
+    #sidebar {
+      display: block;
+      font-size: 20px;
+      text-align: center;
+      width: 100%;
+    }
+    #sidebar p {
+      padding: 0 100px;
+    }
 }
 
 /* Tablet (Landscape) - The viewport is at LEAST 1024px wide */
 @media (min-width: 1024px){
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+
   #benefits {
     font-size: 26px;
+  }
+
+/* blog */
+  #posts {
+    margin: auto;
+  }
+
+  .post h2 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  .post {
+    text-align: center;
+    font-size: 20px;
+    width: 500px;
+  }
+
+  .post img {
+    max-width: 500px;
+    height: auto;
+  }
+
+  #sidebar h3 {
+    font: 24px;
+    margin-bottom: 5px;
+  }
+
+  #sidebar {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  #sidebar p {
+    padding: 0 200px;
   }
 }
