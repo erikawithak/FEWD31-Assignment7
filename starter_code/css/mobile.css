@@ -1,0 +1,217 @@
+@media(min-width:320px) {
+ /*small portrait stylez*/
+ 
+body {
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.container {
+  width: 100%;
+ }
+
+.logo {
+  font-size: 36px;
+  font-weight: 800;
+ }
+
+header {
+  padding: 3px 0;
+  height: 15vh;
+  box-sizing: border-box;
+ }
+
+ header .logo {
+  float: none;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+
+header nav {
+	float: none;
+	text-align: center;
+}
+
+header nav ul li {
+  font-size: 18px;
+  margin: 0 0 0 5%;
+}
+
+#hero {
+  max-height: 700px;
+  height: 17vh;
+  padding-top: 5px;
+}
+
+#hero .logo {
+}
+
+#hero h2 {
+  font-size: 22px;
+  margin: 0 0 9px;
+  font-weight: 600;
+}
+
+.button {
+  font-weight: 800;
+  padding: 6px 0;
+  max-width: 280px;
+  width: 70%;
+  font-size: 18px;
+}
+
+.blue {
+  font-size: 24px;
+}
+
+#benefits {
+  padding: 40px 0 20px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#benefits p, #benefits ul {
+  max-width: 600px;
+}
+#benefits ul {
+  margin: 15px 0 0 40px;
+}
+
+#testimonial {
+  padding: 30px 0 30px;
+}
+
+blockquote {
+  font-size: 14px;
+  max-width: 580px;
+  }
+blockquote span {
+  font-weight: 600;
+}
+
+#main {
+  margin-top: 40px;
+}
+#posts {
+  max-width: 700px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+#sidebar {
+  width: 240px;
+}
+.post {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.post h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.post h2 a {
+}
+
+.post img {
+  margin-bottom: 10px;
+}
+.post p {
+  font-size: 18px;
+  line-height: 1;
+}
+.post p:first-of-type:first-letter {
+  font-size: 36px;
+  line-height: 25px;
+  padding-top: 2px;
+  padding-right: 4px;
+  padding-left: 1.5px;
+  font-weight: 600;
+}
+.readmore {
+  margin-top: 10px;
+}
+.readmore a {
+  font-weight: 600;
+}
+
+/*.button {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.yellow {
+  background: #f9e42e;
+  color: #033048;
+}
+.blue {
+  background: #033048;
+  color: #fff;
+  font-size: 24px;
+}*/
+
+#sidebar h3 {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+#sidebar ul {
+  margin-bottom: 25px;
+}
+
+#sidebar ul li a {
+  font-size: 18px;
+}
+#sidebar p {
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 25px;
+}
+#sidebar p a {
+  font-weight: 600;
+}
+
+#bottom-cta {
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  padding: 30px 0 20px;
+}
+footer .logo {
+  margin-bottom: 44px;
+}
+footer ul li {
+  margin: 0 18px 45px;
+}
+footer p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+@media(min-width:480px) {
+ /*large portrait stylez*/
+}
+
+@media(min-width:640px) {
+ /*landscape stylez*/
+}
+
