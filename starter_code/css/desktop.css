@@ -1,10 +1,15 @@
-
+img{
+  max-width: 100%;
+    height: auto;
+}
 
 
 @media (min-width: 1280px){
 	section{ 
 		font-size: 36px; 
 	}
-
+	.post{
+    font-size:36px;
+}
 
 

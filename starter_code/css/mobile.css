@@ -1,14 +1,20 @@
 
-section{ 
-		font-size: 16px; 
-	}
-
 #sidebar {
   max-width: 100%;
   display: inline-block;
   vertical-align: top;
 }
-	
+#hero h2 {
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  font-weight: 600;
+}
+#benefits ul {
+  list-style: disc;
+  margin: 0 auto;
+}
 
 .container{
 	max-width: 100%;
@@ -20,7 +26,7 @@ section{
 #posts {
   max-width: 100%;
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 0 auto;
   vertical-align: top;
 }
 #sidebar {
@@ -28,7 +34,10 @@ section{
   display: inline-block;
   vertical-align: top;
 }
-
+img{
+  max-width: 100%;
+    height: auto;
+}
 p{
 	max-width: 100%;
 }
@@ -45,14 +54,32 @@ blockquote {
 
 @media (min-width: 320px){
 
+section{ 
+    font-size: 16px; 
+  }
+.post{
+    font-size:16px;
+}
 
 }
 @media (min-width: 480px){
 	
+section{ 
+    font-size: 16px; 
+  }
+.post{
+    font-size:16px;
+}
 	
 }
 @media (min-width: 640px){
 	
+section{ 
+    font-size: 16px; 
+  }
+.post{
+    font-size:16px;
+}
 
 	
 }
