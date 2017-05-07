@@ -1,0 +1,23 @@
+img{
+  max-width: 100%;
+    height: auto;
+}
+
+
+@media (min-width: 768px) {
+	section{ 
+		font-size: 22px; 
+	}
+	.post{
+    font-size:22px;
+}
+  /*Insert your styles here*/
+}
+@media (min-width: 1024px){
+	section{ 
+		font-size: 22px; 
+	}
+	.post{
+    font-size:22px;
+}
+}
