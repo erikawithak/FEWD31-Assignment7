@@ -1,0 +1,14 @@
+@media(min-width: 768px) {
+/*tablet portrait*/
+.container {
+  width: 768px;
+  margin: 0 auto;
+}
+}
+
+
+@media(min-width: 1024px) {
+
+/*tablet landscape*/
+
+}
