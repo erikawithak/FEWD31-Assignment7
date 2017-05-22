@@ -67,6 +67,30 @@ a {
   margin: 0 auto;
 }
 
+header nav{
+  margin-top: 15px;
+}
+
+header nav ul{
+  display: none;
+}
+
+
+header nav span{
+ content:"";
+ width:50px;
+ height: 50px;
+ display:block;
+ margin: auto;
+ background-color: yellow;
+ background-image:url("../images/hamburger.png");
+ 
+}
+
+
+header nav:hover ul{
+  display:block;
+}
 
 header {
   background: #033048;
